@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+}
+a:hover{
+    text-decoration: none;
+    color: rgba(204, 0, 0, 0.842);
+}
+.navbar{
+    background-color: #fff;
+}
+
+.navbar-brand{
+    font-size: 2.6rem;
+}
+
+.navbar-nav .nav-item .nav-link, .btn-link{
+    color: #333;
+}
+.navbar-nav .nav-item .nav-link:hover, .btn-link:hover{
+    color: rgba(204, 0, 0, 0.842);
+}
+.dropdown-menu{
+    background-color: #fff;
+    border: none;
+}
+.card{
+    border: none;
+}
+.card .body-card .fa{
+    font-size: 24px;
+}
+.ico-winter{
+    width: 40px;
+    height: 40px;
+}
