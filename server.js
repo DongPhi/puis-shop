@@ -9,4 +9,8 @@ app.get('/', function(req, res) {
     res.render('pages/index');
 });
 
+app.get('/admin', function(req, res) {
+    res.render('pages/admin');
+});
+
 app.listen(8080);

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); -%>
+    <title>Admin</title>
+</head>
+<body>
+    <header>
+        <div class="w-100 bg-admin">
+                <div class="hd-admin">
+                    <ul class="nav nav-pills container-fluid">
+                        <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#admin"><i class="fa fa-line-chart mr-2" aria-hidden="true"></i><i>Tổng quan</i></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#collection"><i class="fa fa-cubes mr-2" aria-hidden="true"></i><i>Bộ sưu tập</i></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#product"><i class="fa fa-cube mr-2" aria-hidden="true"></i><i>Hàng hóa</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#customer"><i class="fa fa-user-circle-o mr-2" aria-hidden="true"></i><i>Khách hàng</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#page"><i class="fa fa-file-text-o mr-2" aria-hidden="true"></i><i>Bài viết</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#setting"><i class="fa fa-cog mr-2" aria-hidden="true"></i><i>Thiết lập</i></a>
+                        </li>
+                    </ul>
+                </div>
+                  <!-- Tab panes -->
+                <div class="tab-content container-fluid">
+                    <div class="tab-pane active" id="admin">
+                        <div class="row">
+                            <div class="col-sm mt-5 mb-4 ml-3" style="background-color: #fff; padding-top: 30px;padding-bottom: 30px">
+                                <h3>Xin chào bạn!</h3>
+                                <i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptatibus veniam itaque et, laboriosam delectus aut sapiente obcaecati doloribus ducimus non dolor ab cum enim, error sunt expedita similique provident!</i>
+                            </div>
+                            <div class="col-sm">abc</div>
+                            <div class="col-sm">abc</div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="collection">Bộ sưu tập</div>
+                    <div class="tab-pane fade" id="product">Hàng hóa</div>
+                    <div class="tab-pane fade" id="customer">Khách hàng</div>
+                    <div class="tab-pane fade" id="page">Bài viết</div>
+                    <div class="tab-pane fade" id="setting">Thiết lập</div>
+                </div>
+        </div>
+    </header>
+</body>
+</html>
